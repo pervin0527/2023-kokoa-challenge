@@ -1,0 +1,61 @@
+.welcome-block{
+    margin: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.welcome-block__title{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.welcome-block__text{
+    width: 60%;
+    opacity: 0.6;
+}
+
+.login-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+}
+
+.login-block input{
+    width: 100%;
+    border: none;
+    padding: 15px 0px;
+    font-size: 20px;
+}
+
+.login-block input::placeholder{
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.login-block input:not([type="submit"]){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    transition: border-color 0.1s ease-in-out;
+}
+
+.login-block input:not([type="submit"]):focus{
+    border-color: var(--kokoa-color);
+}
+
+.login-block input[type="submit"]{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.login-block input[type="submit"]:hover{
+    background-color: var(--kokoa-color);
+}
+
+.login-block a{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}

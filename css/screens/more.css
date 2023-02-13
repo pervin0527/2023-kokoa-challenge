@@ -1,0 +1,33 @@
+.suggestions{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+.suggestions-title{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.suggestions-icons{
+    display: flex;
+}
+
+.suggestions-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.suggestions-column__icon{
+    padding: 15px;
+    background-color: var(--kokoa-color);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.suggestions-column__title{
+    color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,43 @@
+.screen-header{
+    padding: 40px var(--main-padd);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.screen-header__title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.screen-header__icons i{
+    margin-left: 25px;
+}
+
+.screen-header__icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen-header__icon-link{
+    position: relative;
+}
+
+.screen-header__icon-badge{
+    position: absolute;
+    left: 45px;
+    bottom: 20px;
+}
+
+@keyframes rotateGear{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icon-link:last-child i:hover{
+    animation: rotateGear 1s linear infinite;
+}

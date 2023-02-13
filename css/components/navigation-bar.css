@@ -1,0 +1,34 @@
+.navigation-bar{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9f9fa;
+    padding: 20px 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.navigation-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-btn__link{
+    color: #2e363e;
+    position: relative;
+}
+
+.navigation-btn__badge{
+    position: absolute;
+}
+
+.navigation-btn:nth-child(2) .navigation-btn__badge{
+    left: 20px;
+    bottom: 20px;
+}
+
+.navigation-btn:last-child .navigation-btn__badge{
+    left: 30px;
+    bottom: 25px;
+}

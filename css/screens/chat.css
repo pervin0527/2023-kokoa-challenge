@@ -1,0 +1,135 @@
+.chat-screen{
+    background-color: #abc1d0;
+}
+
+.chat-screen .status-bar, .chat-screen .center-title-header{
+    background-color: #abc1d0;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.chat-screen .status-bar{
+    z-index: 2;
+}
+
+.chat-screen .center-title-header{
+    z-index: 1;
+}
+
+.main-chat{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-balloon {
+    color: white;
+    background-color: #92a4b2;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+.message-row{
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.message-profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.message-writer{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.message-text{
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    margin-right: 5px;
+}
+
+.message-content{
+    display: flex;
+    align-items: flex-end;
+}
+
+.message-time, .message-writer {
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.message-row__own .message-text{
+    background-color: var(--kokoa-color);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.message-row__own{
+    justify-content: flex-end;
+}
+
+.message-row__own .message-content{
+    flex-direction: row-reverse;
+}
+
+.type-message{
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.type-column:first-child{
+    width: 5%;
+}
+
+.type-column:last-child{
+    width: 95%;
+    position: relative;
+}
+
+.type-column input{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.type-column:last-child > i, .type-column:last-child button{
+    position: absolute;
+    right: -18px;
+    top: 1px;
+}
+
+.type-column:last-child > i{
+    right: 30px;
+    top: 18px;
+}
+
+.type-column button{
+    background-color: var(--kokoa-color);
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

@@ -1,0 +1,33 @@
+.name-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.name-display i:first-child{
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.name-display i:last-child{
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.friends-container{
+    margin-top: 20px;
+    padding: 15px 0px 0px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.friends-container__fold{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 13px;
+    margin-bottom: 20px;
+}

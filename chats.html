@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chats Page</title>
+</head>
+<body>
+    <section class="status-section">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi fa-sm"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>11:11</span>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <i class="fa-solid fa-battery-full fa-lg"></i>
+                <i class="fa-solid fa-bolt fa-xs"></i>
+            </div>
+        </div>
+    </section>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <a href="#" class="screen-header__icon-link">
+                <span class="screen-header__icon-badge"></span>
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </a>
+            <a href="#" class="screen-header__icon-link">
+                <span class="screen-header__icon-badge"></span>
+                <i class="fa-solid fa-music fa-lg"></i>
+            </a>
+            <a href="settings.html" class="screen-header__icon-link">
+                <span class="screen-header__icon-badge badge badge-small"></span>
+                <i class="fa-solid fa-gear fa-lg"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <a href="chat.html" class="chat-list__item">
+            <div class="user-data">
+                <div class="user-data__column">
+                    <img class="user-data__img user-data__img-sm" src="imgs/img05.jpg">
+                    <div class="user-data__text">
+                        <h4 class="user-name user-name-sm">Manchester City</h4>
+                        <h6 class="user-status-msg user-status-msg-sm">Hey Minjun! Won't you come to our team?</h6>
+                    </div>
+                </div>
+                <div class="user-data__column">
+                    <span class="last-msg-time">11:11</span>
+                    <span class="badge badge-lg">1</span>
+                </div>
+            </div>
+        </a>
+    </main>
+
+    <nav class="navigation-bar">
+        <ul class="navigation-btns">
+            <li class="navigation-btn">
+                <a href="friends.html" class="navigation-btn__link">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="navigation-btn">
+                <a href="chats.html" class="navigation-btn__link">
+                    <span class="navigation-btn__badge badge">1</span>
+                    <i class="fa-solid fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="navigation-btn">
+                <a href="find.html" class="navigation-btn__link">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="navigation-btn">
+                <a href="more.html" class="navigation-btn__link">
+                    <span class="navigation-btn__badge badge badge-small"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/56ca9effad.js" crossorigin="anonymous"></script> 
+</body>
+</html>
